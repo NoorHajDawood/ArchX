@@ -20,8 +20,10 @@ ArchX does **not** automate these. Do them on a fresh box before or after `./boo
 - [ ] First zsh login lets Zinit fetch plugins; powerlevel10k is cloned by `services`
 - [ ] Machine-specific mounts (e.g. `/mnt/hdd/Media/Music` for `MUSIC_DIRECTORY`)
 - [ ] GPU / NVIDIA packages if needed — see comments in `packages/optional.txt`
-- [ ] Remove leftover `/usr/local/bin/{next_shuffled_wallpaper,list_keybinds,toggle_gaps_out}` if present from an old install
+- [ ] Remove leftover `/usr/local/bin/{next_shuffled_wallpaper,list_keybinds,toggle_gaps_out,grimblast,fastfetch.sh}` if present from an old install
 - [ ] Review `packages/optional.txt` and install what you want (`./bootstrap.sh optional` + paru for AUR lines)
+- [ ] `grimblast-git` (AUR) and/or stowed `~/.local/bin/grimblast` — both provide screenshots; `.local/bin` wins on PATH if both exist
+- [ ] Enable `mpd.service` user unit after dots if you use rmpc (`systemctl --user enable --now mpd`)
 
 ## Dotfiles note
 

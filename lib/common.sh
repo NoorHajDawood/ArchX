@@ -115,13 +115,15 @@ enable_user_services() {
 		systemctl --user start ssh-agent.service 2>/dev/null || true
 	fi
 
-	local unit=cycle-wallpaper.timer
-	if [[ -f "$HOME/.config/systemd/user/$unit" ]] || systemctl --user cat "$unit" &>/dev/null; then
-		log "enabling user unit: $unit"
-		systemctl --user enable --now "$unit" || warn "could not enable $unit"
-	else
-		warn "user unit not found (stow first?): $unit"
-	fi
+	local unit
+	for unit in cycle-wallpaper.timer mpd.service; do
+		if [[ -f "$HOME/.config/systemd/user/$unit" ]] || systemctl --user cat "$unit" &>/dev/null; then
+			log "enabling user unit: $unit"
+			systemctl --user enable --now "$unit" || warn "could not enable $unit"
+		else
+			warn "user unit not found (stow first?): $unit"
+		fi
+	done
 }
 
 backup_file() {

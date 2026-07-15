@@ -2,6 +2,7 @@
 # Installed with paru after official packages (paru itself is bootstrapped separately)
 bibata-cursor-theme
 greetd-dms-greeter-git
+grimblast-git
 matugen-bin
 noisetorch
 pyprland

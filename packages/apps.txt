@@ -8,6 +8,7 @@ rmpc
 cava
 qbittorrent
 yt-dlp
+zenity
 cups
 system-config-printer
 solaar
