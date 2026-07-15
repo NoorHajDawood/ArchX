@@ -1,10 +1,12 @@
 # AUR packages required for the core daily-driver slice
 # Installed with paru after official packages (paru itself is bootstrapped separately)
-bibata-cursor-theme
-greetd-dms-greeter-git
-grimblast-git
-matugen-bin
-noisetorch
-pyprland
-tlrc
-zen-browser-bin
+# Inline comments are stripped by bootstrap (package  # note)
+
+bibata-cursor-theme     # cursor theme (hypr setcursor)
+greetd-dms-greeter-git  # DMS greeter for greetd
+grimblast-git           # Hyprland screenshot helper (also stowed in dots)
+matugen-bin             # Material You color generation (DMS)
+noisetorch              # mic noise suppression (startup)
+pyprland                # scratchpads / helpers (pypr)
+tlrc                    # tldr client
+zen-browser-bin         # daily browser ($mod+B)

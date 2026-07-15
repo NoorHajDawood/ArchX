@@ -1,29 +1,31 @@
 # Hyprland + DankMaterialShell desktop stack (official repos)
-hyprland
-hyprpicker
-xdg-desktop-portal-hyprland
-xdg-desktop-portal-gtk
-qt5-wayland
-qt6-base
-qt6ct
-kitty
-rofi
-grim
-slurp
-imv
-mate-polkit
-greetd
-dms-shell
-dms-shell-hyprland
-quickshell
-pipewire
-pipewire-alsa
-pipewire-pulse
-pipewire-jack
-wireplumber
-gst-plugin-pipewire
-libpulse
-pavucontrol
-bluez
-bluez-utils
-bluetui
+# Inline comments are stripped by bootstrap (package  # note)
+
+hyprland                    # Wayland compositor
+hyprpicker                  # color picker
+xdg-desktop-portal-hyprland # screen share / file picker portal
+xdg-desktop-portal-gtk      # GTK portal backend
+qt5-wayland                 # Qt5 Wayland support
+qt6-base                    # Qt6 base
+qt6ct                       # Qt6 theme config
+kitty                       # terminal
+rofi                        # dmenu (list_keybinds, etc.)
+grim                        # screenshots (grimblast dep)
+slurp                       # region select (grimblast dep)
+imv                         # image viewer
+mate-polkit                 # auth agent (startup.conf)
+greetd                      # login greeter daemon
+dms-shell                   # DankMaterialShell
+dms-shell-hyprland          # DMS Hyprland integration
+quickshell                  # QML shell runtime (DMS)
+pipewire                    # audio/video server
+pipewire-alsa               # ALSA → PipeWire
+pipewire-pulse              # PulseAudio → PipeWire
+pipewire-jack               # JACK → PipeWire
+wireplumber                 # PipeWire session manager
+gst-plugin-pipewire         # GStreamer PipeWire plugin
+libpulse                    # Pulse client libs
+pavucontrol                 # volume UI (pypr scratchpad)
+bluez                       # Bluetooth stack
+bluez-utils                 # bluetoothctl, etc.
+bluetui                     # Bluetooth TUI

@@ -1,34 +1,36 @@
 # Official packages — bootstrap prerequisites & core CLI tooling
-base-devel
-git
-stow
-curl
-wget
-zsh
-networkmanager
-man-db
-rsync
-zip
-tree
-jq
-fd
-fzf
-ripgrep
-zoxide
-starship
-tmux
-neovim
-lazygit
-yazi
-btop
-fastfetch
-wl-clipboard
-cliphist
-imagemagick
-noto-fonts
-noto-fonts-cjk
-noto-fonts-emoji
-ttf-hack-nerd
-ttf-jetbrains-mono-nerd
-ttf-noto-nerd
-ttf-dejavu
+# Inline comments are stripped by bootstrap (package  # note)
+
+base-devel          # compilers, makepkg, headers for building AUR pkgs
+git                 # clone dots / paru bootstrap
+stow                # deploy ~/dotfiles
+curl                # downloads
+wget                # downloads
+zsh                 # login shell
+networkmanager      # networking (usually already present post-install)
+man-db              # man pages
+rsync               # file sync
+zip                 # archives
+tree                # directory trees
+jq                  # JSON (rmpc delete script, tooling)
+fd                  # fast find
+fzf                 # fuzzy finder (shell + nvim)
+ripgrep             # fast search (rg)
+zoxide              # smarter cd
+starship            # prompt (alongside p10k in zshrc)
+tmux                # terminal multiplexer
+neovim              # editor
+lazygit             # git TUI
+yazi                # terminal file manager ($mod+E)
+btop                # process monitor (autostart workspace)
+fastfetch           # system info / fetch
+wl-clipboard        # wl-copy/wl-paste (cliphist + grimblast)
+cliphist            # clipboard history daemon
+imagemagick         # image tooling
+noto-fonts          # base fonts
+noto-fonts-cjk      # CJK coverage
+noto-fonts-emoji    # emoji
+ttf-hack-nerd       # nerd font
+ttf-jetbrains-mono-nerd  # terminal / editor font (kitty)
+ttf-noto-nerd       # nerd font
+ttf-dejavu          # fallback UI font

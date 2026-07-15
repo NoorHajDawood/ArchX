@@ -1,17 +1,18 @@
 # Optional — not installed by `packages` / `all`
 # Install later with: ./bootstrap.sh optional
+# Inline comments are stripped by bootstrap (package  # note)
 
 # --- Gaming ---
-steam
-lutris
-gamemode
-lib32-gamemode
-mangohud
-lib32-mangohud
-gamescope
-wine-staging
-protontricks
-prismlauncher
+steam              # Steam client
+lutris             # game launcher / wine helpers
+gamemode           # temporary performance tweaks
+lib32-gamemode     # 32-bit gamemode
+mangohud           # FPS / perf overlay
+lib32-mangohud     # 32-bit mangohud
+gamescope          # nested Steam/game compositor
+wine-staging       # Wine (staging)
+protontricks       # winetricks for Proton prefixes
+prismlauncher      # Minecraft launcher
 
 # --- Gaming / Proton (AUR — install manually with paru if desired) ---
 # dxvk-bin
@@ -23,16 +24,16 @@ prismlauncher
 # jackify-bin
 
 # --- Dev extras ---
-docker
-docker-compose
-go
-rust
-nodejs
-dotnet-sdk
-cmake
-ninja
-helm
-cloudflared
+docker             # containers
+docker-compose     # compose v2 plugin / tooling
+go                 # Go toolchain
+rust               # Rust toolchain (rustup meta on Arch)
+nodejs             # Node.js
+dotnet-sdk         # .NET SDK
+cmake              # build system
+ninja              # build backend
+helm               # Kubernetes package manager
+cloudflared        # Cloudflare tunnel / WARP tooling
 
 # --- Hardware / machine-specific ---
 # nvidia-open
@@ -45,20 +46,18 @@ cloudflared
 # via-bin
 
 # --- Misc ---
-timeshift
+timeshift          # system snapshots
 # timeshift-systemd-timer  # AUR
 # cursor-bin               # AUR
 # plex-desktop             # AUR
 # ttf-ms-fonts             # AUR
-moonlight-qt
-nicotine+
-picard
-piper
-kmymoney
-wev
-wikiman
-valgrind
-tcpdump
-ntfs-3g
-nss-mdns
-opencl-icd-loader
+nicotine+          # Soulseek client
+picard             # MusicBrainz tagger
+piper              # mouse/config for gaming mice (libratbag)
+wev                # Wayland event debug (key codes)
+wikiman            # offline Arch/docs wiki browser
+valgrind           # memory debugger
+tcpdump            # packet capture
+ntfs-3g            # NTFS mounts
+nss-mdns           # mDNS / .local hostname resolution
+opencl-icd-loader  # OpenCL ICD loader

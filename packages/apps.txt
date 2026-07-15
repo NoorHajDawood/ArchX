@@ -1,14 +1,16 @@
 # Daily-driver GUI / desktop apps (official)
-bitwarden
-discord
-obsidian
-mpv
-mpd
-rmpc
-cava
-qbittorrent
-yt-dlp
-zenity
-cups
-system-config-printer
-solaar
+# Inline comments are stripped by bootstrap (package  # note)
+
+bitwarden               # password manager
+discord                 # chat
+obsidian                # notes
+mpv                     # video player
+mpd                     # music daemon (rmpc frontend)
+rmpc                    # MPD TUI client ($mod+M)
+cava                    # audio visualizer (rmpc tab)
+qbittorrent             # torrents
+yt-dlp                  # media download
+zenity                  # GUI dialogs (rmpcDeleteCurrentSong)
+cups                    # printing
+system-config-printer   # printer setup UI
+solaar                  # Logitech device manager
