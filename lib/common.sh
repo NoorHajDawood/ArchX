@@ -43,8 +43,8 @@ ensure_paru() {
 	# shellcheck disable=SC2064
 	trap "rm -rf '$tmp'" RETURN
 
-	git clone https://aur.archlinux.org/paru.git "$tmp/paru"
-	(cd "$tmp/paru" && makepkg -si --noconfirm --needed)
+	git clone https://aur.archlinux.org/paru-bin.git "$tmp/paru-bin"
+	(cd "$tmp/paru-bin" && makepkg -si --noconfirm --needed)
 	command -v paru >/dev/null 2>&1 || die "paru install failed"
 }
 

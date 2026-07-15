@@ -1,0 +1,9 @@
+# NVIDIA proprietary / open kernel module stack for Hyprland
+# Installed when GPU profile = nvidia
+
+nvidia-open             # open kernel modules (Turing+)
+nvidia-utils            # user-space driver
+lib32-nvidia-utils      # 32-bit (Steam / Wine)
+nvidia-settings         # control panel
+mesa                    # still useful for iGPU / fallback
+lib32-mesa              # 32-bit mesa

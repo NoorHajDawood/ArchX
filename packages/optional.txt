@@ -36,10 +36,7 @@ helm               # Kubernetes package manager
 cloudflared        # Cloudflare tunnel / WARP tooling
 
 # --- Hardware / machine-specific ---
-# nvidia-open
-# nvidia-utils
-# nvidia-settings
-# lib32-nvidia-utils
+# GPU drivers live in packages/gpu-{nvidia,amd}.txt (TUI / --gpu=)
 # coolercontrold
 # corectrl
 # liquidctl

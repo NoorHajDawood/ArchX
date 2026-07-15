@@ -1,0 +1,8 @@
+# AMD GPU stack for Hyprland
+# Installed when GPU profile = amd
+
+mesa                    # OpenGL + VA-API (Mesa)
+lib32-mesa              # 32-bit mesa
+vulkan-radeon           # Vulkan (AMD)
+lib32-vulkan-radeon     # 32-bit Vulkan
+mesa-utils              # glxinfo / eglinfo helpers

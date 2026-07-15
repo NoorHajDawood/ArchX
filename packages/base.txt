@@ -4,6 +4,8 @@
 base-devel          # compilers, makepkg, headers for building AUR pkgs
 git                 # clone dots / paru bootstrap
 stow                # deploy ~/dotfiles
+gum                 # bootstrap TUI (Charm)
+openssh             # ssh-agent user socket
 curl                # downloads
 wget                # downloads
 zsh                 # login shell
