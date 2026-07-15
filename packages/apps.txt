@@ -1,0 +1,13 @@
+# Daily-driver GUI / desktop apps (official)
+bitwarden
+discord
+obsidian
+mpv
+mpd
+rmpc
+cava
+qbittorrent
+yt-dlp
+cups
+system-config-printer
+solaar

@@ -1,0 +1,64 @@
+# Optional — not installed by `packages` / `all`
+# Install later with: ./bootstrap.sh optional
+
+# --- Gaming ---
+steam
+lutris
+gamemode
+lib32-gamemode
+mangohud
+lib32-mangohud
+gamescope
+wine-staging
+protontricks
+prismlauncher
+
+# --- Gaming / Proton (AUR — install manually with paru if desired) ---
+# dxvk-bin
+# vkd3d-proton-bin
+# protonup-qt
+# protonplus
+# vkbasalt
+# lib32-vkbasalt
+# jackify-bin
+
+# --- Dev extras ---
+docker
+docker-compose
+go
+rust
+nodejs
+dotnet-sdk
+cmake
+ninja
+helm
+cloudflared
+
+# --- Hardware / machine-specific ---
+# nvidia-open
+# nvidia-utils
+# nvidia-settings
+# lib32-nvidia-utils
+# coolercontrold
+# corectrl
+# liquidctl
+# via-bin
+
+# --- Misc ---
+timeshift
+# timeshift-systemd-timer  # AUR
+# cursor-bin               # AUR
+# plex-desktop             # AUR
+# ttf-ms-fonts             # AUR
+moonlight-qt
+nicotine+
+picard
+piper
+kmymoney
+wev
+wikiman
+valgrind
+tcpdump
+ntfs-3g
+nss-mdns
+opencl-icd-loader
